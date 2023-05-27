@@ -1,0 +1,44 @@
+span {
+    margin-left: 10px;
+    font-size: xx-large;
+}
+
+#game-board {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.snake-node {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(47, 154, 255);
+    position: absolute;
+}
+
+.food {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+.super-food {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    position: absolute;
+}
+
+.gold {
+    background-color: gold !important;
+}
+
+.silver {
+    background-color: silver !important;
+}
+
+.bronze {
+    background-color: #cd7f32 !important;
+}
